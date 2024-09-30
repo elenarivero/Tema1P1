@@ -1,15 +1,14 @@
 package pruebas;
 
-import java.util.*;
-
 public class Prueba {
 	
-	public static void main(String[] args) {		
-		int num1 = 8;
-		num1 %= 2;
+	public static void main(String[] args) {
+		int a = 5,  b = 2, c = 4;
 		
-		System.out.println(num1);
-//		System.out.println(num2);
+		// (5 + (4 - 2) + 2) = 9
+		// (5 + (4 - 2) + 3) = 10
+		System.out.println(- b++ + a + c  + b );
+		System.out.println(b);
 	}
 
 }
